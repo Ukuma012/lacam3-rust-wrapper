@@ -1,0 +1,18 @@
+[package]
+name = "lacam3-rust-wrapper"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ukuma012 <Ukuma012@gmail.com>"]
+description = "Rust FFI bindings for Kei18/lacam3 — an anytime LaCAM3-based multi-agent path finding (MAPF) solver"
+repository = "https://github.com/Ukuma012/lacam3-rust-wrapper"
+readme = "README.md"
+license = "MIT"
+keywords = ["mapf", "lacam", "lacam3", "path-finding", "multi-agent"]
+categories = ["algorithms", "science", "external-ffi-bindings"]
+
+[dependencies]
+cxx = "1.0.158"
+
+[build-dependencies]
+cmake = "0.1.54"
+cxx-build = "1.0.158"
